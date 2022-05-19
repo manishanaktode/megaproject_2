@@ -1,0 +1,46 @@
+
+*{
+    border: border-box;
+    margin:0px;
+    padding:0px;
+    border: border-box;
+}
+img{
+    width:100px;
+    height:100px;
+    margin:10px;
+    transition: 0.1s;
+  
+}
+.container{
+    width:500px;
+    height: 500px;
+    align-items: center;
+    background-color: black;
+    margin:10px;
+    padding:50px;
+    border:5px solid yellow;
+    box-shadow : 2px black;
+    border-radius: 15px;
+
+}
+#img_shower{
+    width:300px;
+    height:300px;
+    align:center;
+    padding:70px;
+  
+}
+h1{
+    font:bold;
+    color: crimson;
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
+p{
+    color:white;
+    font-size: medium;
+    text-align: center;
+
+}

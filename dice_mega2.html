@@ -1,0 +1,48 @@
+<!DOCTYPEhtml>
+    <html>
+
+    <head>
+        <metacharset="utf-8">
+
+            <title>Dice _megaproject-2</title>
+            <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Raleway:100,200,600,700" rel="stylesheet">
+            <link href="megaproject-2_dice.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <div class="container">
+
+           <h1>Moving Dice</h1>
+            <img id="img_shower" value="click"  onclick="stop()"  src="images/dice1-img.png" />
+           
+            <p>Please Click On Dice For Move</p>
+        </div>
+
+        <script>
+           
+             function playgame() {
+                const images = ['images/dice1-img.png', 'images/dice2-img.png', 'images/dice3-img.png', 'images/dice4-img.png', 'images/dice5-img.png', 'images/dice6-img.png'];
+
+                random_img = Math.floor(Math.random() * 6);
+                select_img = images[random_img];
+                document.getElementById("img_shower").src = select_img;
+
+            }
+           
+        // function start(){
+            
+             var start1 =setInterval(playgame,1000);
+       
+        //}
+            function stop() {
+
+            
+                clearInterval(start1,1000);
+        
+            }
+            
+        
+        </script>
+    </body>
+
+    </html>
